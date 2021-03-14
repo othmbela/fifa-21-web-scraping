@@ -14,7 +14,7 @@ This dataset has the following properties:
 ```python
 >>> df.columns
 Index(['Short Name', 'Full Name', 'Nationality', 'Age', 'Overall',
-       'Potential', 'Club', 'Height', 'Weight', 'Foot', 'Best Postion',
+       'Potential', 'Club', 'Height', 'Weight', 'Foot', 'Best Position',
        'Value', 'Wage', 'VIT', 'TIR', 'PAS', 'DRI', 'DEF', 'PHY'],
       dtype='object')
 ```

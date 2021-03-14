@@ -3,7 +3,6 @@ from utils.save_data import save_data
 from utils.multi_threading import MultiThreading
 
 from fake_useragent import UserAgent
-import threading
 import logging.config
 
 

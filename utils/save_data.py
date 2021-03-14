@@ -1,5 +1,8 @@
+from utils.process import process
+
 from itertools import chain
 import pandas as pd
+
 
 def save_data(data):
     """
@@ -8,4 +11,5 @@ def save_data(data):
     flatten = lambda x: list(chain.from_iterable(x))
 
     df = pd.DataFrame(flatten(data))
+    df = process(df)
     df.to_csv('./data/fifa21.csv', index=False)

@@ -12,7 +12,7 @@ def extract_info(tr):
         "height": tr.select('td.col.col-hi')[0].text.strip(),
         "weight": tr.select('td.col.col-wi')[0].text.strip(),
         "foot": tr.select('td.col.col-pf')[0].text.strip(),
-        "best_postion": tr.select('td.col.col-bp')[0].text.strip(),
+        "best_position": tr.select('td.col.col-bp')[0].text.strip(),
         "value": tr.select('td.col.col-vl')[0].text.strip(),
         "wage": tr.select('td.col.col-wg')[0].text.strip(),
         "VIT": tr.select('td.col.col-pac')[0].text.strip(),
